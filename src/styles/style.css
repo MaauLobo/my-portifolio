@@ -3,9 +3,11 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
-  
+
 
 }
+
+
 
 nav {
   display: flex;
@@ -110,7 +112,7 @@ nav {
 
 .name {
   background: rgb(10, 18, 110);
-  background: linear-gradient(90deg, rgba(10, 18, 110, 1) 0%, rgba(6, 127, 187, 1) 53%, rgba(4, 214, 228, 1) 100%);
+  background: linear-gradient(90deg, rgba(10, 18, 110, 1) 1%, rgba(5, 188, 216, 1) 50%, rgba(6, 127, 187, 1) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -120,6 +122,20 @@ nav {
   line-height: 70px;
   letter-spacing: -1px;
 }
+
+.name2 {
+  background: rgb(4, 214, 228);
+  background: linear-gradient(90deg, rgba(4, 214, 228, 1) 0%, rgba(6, 127, 187, 1) 53%, rgba(10, 18, 110, 1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -1px;
+}
+
 
 .Tech {
   color: #CCC;
@@ -133,7 +149,8 @@ nav {
   margin-top: 300px;
   /* Adicione a margem superior desejada */
 }
-.Tech2{
+
+.Tech2 {
   color: #CCC;
   text-align: center;
   font-size: 18px;
@@ -142,34 +159,37 @@ nav {
   line-height: 26px;
   /* 54.167% */
   padding: 0 50px;
-  
+
 }
 
 
-.techs{
+.techs {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 10px; /* Espaço entre os ícones, ajuste conforme necessário */
-  align-items: center; 
+  gap: 10px;
+  /* Espaço entre os ícones, ajuste conforme necessário */
+  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 100px;
-  
+
 }
 
 .techs svg {
-  width: 100px; /* Ajuste o tamanho conforme necessário */
-  height: 100px; /* Ajuste o tamanho conforme necessário */
+  width: 100px;
+  /* Ajuste o tamanho conforme necessário */
+  height: 100px;
+  /* Ajuste o tamanho conforme necessário */
   margin: 10px;
   transition: transform 0.3s ease, filter 0.3s ease, color 0.3s ease;
 }
 
-.techs svg:hover{
+.techs svg:hover {
   transform: scale(1.1);
 
 }
 
-.techs .svg1{
+.techs .svg1 {
   align-items: center;
   justify-content: center;
   display: flex;

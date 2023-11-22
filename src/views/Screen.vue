@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div >
     <nav>
       <div class="logo">
         <!-- Substitua o src pelo caminho da sua imagem/logo -->
@@ -56,8 +56,7 @@
       <div class="text">
         <h1>
           Olá👋🏽,<br />Meu nome é<br />
-          <div class="name">Mauricio</div>
-          Sou um Desenvolvedor Web
+          <div class="name">Mauricio</div>Sou um <span class="name2">Desenvolvedor Web</span>
         </h1>
       </div>
       <div class="picture"></div>
