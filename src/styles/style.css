@@ -131,3 +131,15 @@ nav {
   margin-top: 300px;
   /* Adicione a margem superior desejada */
 }
+
+.techs{
+  display: flex; 
+  align-items: center; 
+  justify-content: space-around;
+  
+}
+
+.techs svg {
+  width: 88px; /* Ajuste o tamanho conforme necessário */
+  height: 88px; /* Ajuste o tamanho conforme necessário */
+}
