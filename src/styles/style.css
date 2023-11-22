@@ -146,7 +146,7 @@ nav {
   line-height: 26px;
   /* 54.167% */
   padding: 0 50px;
-  margin-top: 300px;
+  margin-top: 200px;
   /* Adicione a margem superior desejada */
 }
 
@@ -166,7 +166,7 @@ nav {
 .techs {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 10px;
+  gap: 20px;
   /* Espaço entre os ícones, ajuste conforme necessário */
   align-items: center;
   justify-content: center;
@@ -194,3 +194,4 @@ nav {
   justify-content: center;
   display: flex;
 }
+
