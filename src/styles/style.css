@@ -33,27 +33,84 @@ body {
     font-weight: 500;
     line-height: 26px;
     margin: 0 20px;
-    text-decoration:none;
-    transition: transform 0.3s ease, filter 0.3s ease;
+    text-decoration: none;
+    transition: transform 0.3s ease, filter 0.3s ease, color 0.3s ease;
   }
   
   .center-options a:hover {
-    color: #fff; 
+    color: #0f21e7;
+    transform: scale(1.1);
+    filter: brightness(1.5);
   }
   
   .social-icons a {
     margin-left: 20px;
-    transition: transform 0.3s ease, filter 0.3s ease;
   }
   
   .social-icons svg {
     height: 1.5em;
-    fill: #a7a7a7; 
+    fill: #a7a7a7;
+    transition: transform 0.3s ease, filter 0.3s ease, color 0.3s ease; /* Adicionando transição para a cor */
+    
+  }
+  
+
+  .social-icons a:hover svg {
+    fill: #0f21e7;
+    transform: scale(1.1);
+    filter: brightness(1.5);
   }
   
   
+
+
+  .me {
+    display: flex;
+    width: 1204px;
+    height: 350px;
+    padding-top: 19px;
+    justify-content: center;
+    align-items: center;
+    gap: 219px;
+    flex-shrink: 0;
+    margin: 50px auto 0; /* Adicionando 50px de margem superior, ajuste conforme necessário */
+  }
   
-  .social-icons a:hover {
-    transform: scale(1.1); 
-    filter: brightness(1.5); 
+  .text {
+    width: 100%; /* Definindo a largura como 100% */
+    text-align: left;
+  }
+  
+  .text h1 {
+    color: #D9D9D9;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px; /* 120.69% */
+    letter-spacing: -1px;
+  }
+  
+  .picture{
+width: 349px;
+height: 349px;
+flex-shrink: 0;
+border-radius: 230px;
+border: 9px solid #0f21e7;
+background: url(../assets/tojii.jpg) lightgray 50% / cover no-repeat;
+
+  }
+
+  .name{
+    background: rgb(10,18,110);
+    background: linear-gradient(90deg, rgba(10,18,110,1) 0%, rgba(6,127,187,1) 53%, rgba(4,214,228,1) 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Poppins;
+font-size: 58px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px;
+letter-spacing: -1px;
   }
