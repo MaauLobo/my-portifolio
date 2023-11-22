@@ -3,6 +3,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
+  
+
 }
 
 nav {
@@ -30,7 +32,7 @@ nav {
   text-align: center;
   font-size: 20px;
   font-style: none;
-  font-weight: 100;
+  font-weight: 10;
   line-height: 26px;
   margin: 0 20px;
   text-decoration: none;
@@ -145,9 +147,12 @@ nav {
 
 
 .techs{
-  display: flex; 
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px; /* Espaço entre os ícones, ajuste conforme necessário */
   align-items: center; 
-  justify-content: space-around;
+  justify-content: center;
+  flex-wrap: wrap;
   margin-top: 100px;
   
 }
@@ -155,4 +160,11 @@ nav {
 .techs svg {
   width: 100px; /* Ajuste o tamanho conforme necessário */
   height: 100px; /* Ajuste o tamanho conforme necessário */
+  margin: 10px;
+}
+
+.techs .svg1{
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
