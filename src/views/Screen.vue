@@ -92,14 +92,28 @@ nav {
   font-weight: 500;
   line-height: 26px;
   margin: 0 20px;
+  text-decoration:none;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.center-options a:hover {
+  color: #fff; 
 }
 
 .social-icons a {
   margin-left: 20px;
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 .social-icons svg {
-  height: 1em;
-  fill: #a7a7a7; /* Aplicando a cor desejada aos ícones */
+  height: 1.5em;
+  fill: #a7a7a7; 
+}
+
+
+
+.social-icons a:hover {
+  transform: scale(1.1); 
+  filter: brightness(1.5); 
 }
 </style>
