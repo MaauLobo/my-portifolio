@@ -7,7 +7,9 @@
 
 <div class="cardsProjects">
     <div class="cardP">
-  <div class="imageP"></div>
+  <div class="imageP">
+    <img src="../assets/ekko.png" alt="Descrição da Imagem">
+  </div>
   <h1>Ekko Page</h1>
   <h2>Colaborei com colegas em um projeto de Web Page para uma startup iniciante, traduzindo ideias inovadoras em uma presença online impactante.</h2>
   <h3>Tech stack: HTML, JavaScript, CSS, Vue</h3>

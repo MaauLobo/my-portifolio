@@ -45,12 +45,11 @@ align-items: center;
 margin: 90px;
   }
 
-  .imageP{
+  .imageP img{
 width: 375px;
-height: 260px;
+height: 220px;
 flex-shrink: 0;
 border-radius: 20px 20px 0px 0px;
-background: url(../assets/ekko.png), lightgray 50% / cover no-repeat;
   }
 
   .cardP h1{
