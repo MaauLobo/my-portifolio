@@ -7,5 +7,10 @@ export default createRouter({
       path: '/',
       component: () => import('../views/Screen.vue'),
     },
+    {
+      path: '/projects',
+      component: () => import('../views/Projects.vue'),
+    },
+    
   ],
 })
