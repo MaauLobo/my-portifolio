@@ -30,11 +30,11 @@ line-height: 26px; /* 81.25% */
     justify-content: center;
     align-items: center;
     text-align: center;
-    
+    padding: 10px;
   }
 
   .cardP{
-width: 373px;
+width: 375px;
 height: 567px;
 border-radius: 20px;
 background: #363636;
@@ -42,6 +42,7 @@ box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.20);
 text-align: center;
 justify-content: center;
 align-items: center;
+margin: 90px;
   }
 
   .imageP{
@@ -62,15 +63,51 @@ background: url(../assets/ekko.png), lightgray 50% / cover no-repeat;
     line-height: 26px; /* 92.857% */
   }
 
-.descP{
-    width: 314px;
-}
 
-.descP h2{
+
+.cardP h2{
     color: var(--Solid-Heading-Dark-mode, #CCC);
 font-family: Poppins;
 font-size: 18px;
 font-style: normal;
 font-weight: 300;
 line-height: 26px; /* 144.444% */
+width: 314px;
+margin: 30px;
 }
+
+.cardP h3{
+    color: var(--Solid-Heading-Dark-mode, #CCC);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+.links {
+    margin-top: 10px; /* Adiciona um espaço entre o Tech stack e os links */
+    display: flex;
+    align-items: center;
+  }
+  
+  .links a {
+    color: #FFFFFF; /* Cor do texto branco */
+    text-decoration: none;
+    margin: 0 40px; /* Adiciona um espaço entre os links */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+
+  }
+
+  .links a svg {
+    margin-right: 3px; /* Adiciona um espaço entre o ícone e o texto */
+  }
+  
+  .links a:hover {
+    text-decoration: underline; /* Adiciona um sublinhado quando o mouse passa sobre o link */
+  }
+  
