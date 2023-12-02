@@ -7,7 +7,10 @@
 
     <!-- Opções no centro -->
     <div class="center-options">
-      <a href="#"><font-awesome-icon icon="home" /> Home</a>
+      <router-link class="router-link" to="/">
+      <font-awesome-icon icon="home" /> Home
+      </router-link>
+
       <a href="#"><font-awesome-icon icon="user" /> About</a>
       <router-link class="router-link" to="/projects">
         <font-awesome-icon icon="code" />Projects
