@@ -158,15 +158,32 @@ nav {
 
 .techs {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(6, minmax(100px, 1fr));
   gap: 20px;
-  /* Espaço entre os ícones, ajuste conforme necessário */
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
   margin-top: 100px;
-
 }
+
+/* Adapte o número de colunas conforme necessário para diferentes tamanhos de tela */
+@media screen and (max-width: 1200px) {
+  .techs {
+    grid-template-columns: repeat(4, minmax(100px, 1fr));
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .techs {
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .techs {
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+  }
+}
+
 
 .techs svg {
   width: 100px;
