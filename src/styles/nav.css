@@ -1,56 +1,110 @@
+/* Estilos CSS para o componente Vue */
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 1193px;
-  height: 59px;
-  padding: 0 20px;
-  margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #191919;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
 }
 
 .logo h1 {
-  max-height: 100%;
-  color: #a7a7a7;
+    max-height: 100%;
+    color: #a7a7a7;
+    font-size: 1.5em; /* Tamanho da fonte ajustado */
 }
 
-.center-options {
-  display: flex;
-  align-items: center;
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
 }
 
-.center-options a {
-  color: #a7a7a7;
-  text-align: center;
-  font-size: 20px;
-  font-style: none;
-  font-weight: 10;
-  line-height: 26px;
-  margin: 0 20px;
-  text-decoration: none;
-  transition: transform 0.3s ease, filter 0.3s ease, color 0.3s ease;
+.menu-toggle span {
+    width: 30px;
+    height: 3px;
+    background-color: #a7a7a7;
+    margin: 6px 0;
+    transition: 0.4s;
 }
 
-.center-options a:hover {
-  color: #0f21e7;
-  transform: scale(1.1);
-  filter: brightness(1.5);
+.nav-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 50px; /* Adiciona espaçamento entre os elementos */
+    font-size: 22px;
+}
+
+/* Adiciona espaçamento vertical entre as opções */
+.nav-options a {
+    color: #a7a7a7;
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Adiciona espaçamento vertical entre as opções ao hover */
+.nav-options a:hover {
+    color: #0f21e7;
+    transform: scale(1.1);
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
 }
 
 .social-icons a {
-  margin-left: 20px;
+    margin-left: 20px;
 }
 
+/* Alterado fill para color */
 .social-icons svg {
-  height: 1.5em;
-  fill: #a7a7a7;
-  transition: transform 0.3s ease, filter 0.3s ease, color 0.3s ease;
-  /* Adicionando transição para a cor */
-
+    height: 1.5em;
+    transition: transform 0.3s ease, filter 0.3s ease, color 0.3s ease;
 }
-
+.social-icons svg{
+color:#a7a7a7
+}
 
 .social-icons a:hover svg {
-  fill: #0f21e7;
-  transform: scale(1.1);
-  filter: brightness(1.5);
+    color: #0f21e7;
+    transform: scale(1.1);
+    filter: brightness(1.5);
+}
+
+/* Estilos específicos para telas menores (responsivo) */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: flex;
+    }
+
+    .nav-options {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+         background-color: #191919;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-options.active {
+        display: flex;
+    }
+
+    .nav-options a {
+        margin: 0;
+        padding: 10px 20px;
+        border-bottom: 1px solid #ddd;
+    }
 }
