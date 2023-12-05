@@ -91,5 +91,5 @@ export default {
 </script>
 
 <style>
-@import "@/styles/style.css";
+@import "../styles/nav.css";
 </style>
