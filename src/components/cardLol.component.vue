@@ -4,8 +4,8 @@
           <img src="../assets/lol.jpeg" alt="Descrição da Imagem">
         </div>
         <h1>League Of Legends</h1>
-        <h2>Embarquei em uma jornada fascinante ao desenvolver um projeto que utiliza a API do League of Legends para fornecer informações básicas sobre os campeões desse renomado universo de jogos.</h2>
-        <h3>Tech stack: HTML, JavaScript,CSS,Vue</h3>
+        <h2>Um projeto que utiliza a API do League of Legends para fornecer informações básicas sobre os campeões desse renomado universo de jogos.</h2>
+        <h3>Tech stack: Vue</h3>
         <div class="links">
           <a href="https://apii-lolzin.vercel.app" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">

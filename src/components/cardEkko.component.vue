@@ -5,7 +5,7 @@
     </div>
     <h1>Ekko Page</h1>
     <h2>Colaborei com colegas em um projeto de Web Page para uma startup iniciante, traduzindo ideias inovadoras em uma presença online impactante.</h2>
-    <h3>Tech stack: HTML, JavaScript,CSS,Vue</h3>
+    <h3>Tech stack: Vue</h3>
     <div class="links">
       <a href="https://ekkosistemas.vercel.app" target="_blank">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
