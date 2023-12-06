@@ -1,4 +1,5 @@
 <template>
+<div class="tecnologias">
  <h1 class="Tech">Minhas Tecnologias</h1>
     <h2 class="Tech2">
       Tecnologias com as quais tenho trabalhado recentemente
@@ -265,7 +266,8 @@
           </g>
         </svg>
       </div>
-    </div>   
+    </div>
+  </div>  
 </template>
 
 

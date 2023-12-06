@@ -5,6 +5,7 @@ nav {
     align-items: center;
     padding: 15px 20px;
     background-color: #191919;
+    z-index: 3000;
     
 }
 

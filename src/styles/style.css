@@ -11,6 +11,7 @@ html{
 
 
 
+/* Estilo base para a classe .me */
 .me {
   display: flex;
   width: 1204px;
@@ -20,9 +21,33 @@ html{
   align-items: center;
   gap: 219px;
   flex-shrink: 0;
-  margin: 50px auto 0;
-  /* Adicionando 50px de margem superior, ajuste conforme necessário */
+  margin: 50px auto 0; /* Adicionando 50px de margem superior, ajuste conforme necessário */
 }
+
+/* Media query para telas menores ou iguais a 768px */
+@media only screen and (max-width: 768px) {
+  .me {
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    margin-top: 200px; /* Ajuste conforme necessário para evitar sobreposição com a barra de navegação */
+  }
+}
+
+/* Media query para telas menores ou iguais a 480px */
+@media only screen and (max-width: 480px) {
+  .me {
+    padding: 10px;
+    gap: 10px;
+    margin-top: 200px; /* Ajuste conforme necessário para evitar sobreposição com a barra de navegação */
+  }
+
+}
+
+
+
 
 .text {
   width: 100%;
@@ -116,6 +141,14 @@ html{
 @media screen and (max-width: 1200px) {
   .techs {
     grid-template-columns: repeat(4, minmax(100px, 1fr));
+  }
+  .tecnologias{
+    margin-top: 300px;
+  }
+
+  .Tech{
+    line-height: 50px;
+
   }
 }
 
