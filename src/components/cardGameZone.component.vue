@@ -4,7 +4,7 @@
       <img src="../assets/gamezone.jpg" alt="Descrição da Imagem">
     </div>
     <h1>GameZone</h1>
-    <h2>Orgulhosamente concebida e desenvolvida de forma independente, minha Web Page de simulação de loja virtual de jogos é uma expressão do meu comprometimento e paixão pelo desenvolvimento web.</h2>
+    <h2>Desenvolvida de forma independente, minha Web Page de simulação de loja virtual de jogos é uma maneiras de demonstrar minhas habilidades como Front-End.</h2>
     <h3>Tech stack: HTML, JavaScript, CSS</h3>
     <div class="links">
       <a href="" target="_blank">
