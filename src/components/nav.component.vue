@@ -4,10 +4,6 @@
       <div class="logo">
         <h1>Mau</h1>
       </div>
-
-      <!-- Botão de menu responsivo -->
-    
-
       <!-- Opções de navegação -->
       <div class="nav-options" :class="{ active: isMenuActive }">
         

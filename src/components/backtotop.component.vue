@@ -22,7 +22,7 @@ export default {
 
     methods: {
         handleScroll() {
-            this.showBackToTop = window.scrollY > 500;
+            this.showBackToTop = window.scrollY > 200;
         },
 
         scrollToTop() {
