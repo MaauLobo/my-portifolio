@@ -1,0 +1,57 @@
+body {
+    background-color: #191919;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+.aboutme{
+    padding: 100px;
+}
+
+  .aboutme h1{
+    color:#D9D9D9;
+font-family: Poppins;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 52px; /* 123.81% */
+letter-spacing: -0.4px;
+}
+
+
+
+.aboutme p{
+    color: var(--dark-content, #666);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 144.444% */
+
+}
+ 
+.typewriter-text {
+    position: relative;
+  }
+  
+  .cursor {
+    display: inline-block;
+    width: 1px;
+    height: 1em;
+    background-color: black;
+    animation: blink 0.7s infinite;
+    margin-left: 2px;
+    position: absolute;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  

@@ -10,14 +10,19 @@
 
       <!-- Opções de navegação -->
       <div class="nav-options" :class="{ active: isMenuActive }">
+        
         <router-link class="router-link" to="/">
       <font-awesome-icon icon="home" /> Home
       </router-link>
 
-      <a href="#"><font-awesome-icon icon="user" /> About</a>
+      <router-link class="router-link" to="/about">
+      <font-awesome-icon icon="user" /> About
+      </router-link>
+      
       <router-link class="router-link" to="/projects">
         <font-awesome-icon icon="code" />Projects
       </router-link>
+      
       <a href="#"><font-awesome-icon icon="envelope" /> Contact</a>
       </div>
 
