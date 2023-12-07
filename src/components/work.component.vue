@@ -12,6 +12,13 @@
                 <font-awesome-icon :icon="['fas', 'location-dot']" />
                 Feira De Santana
             </p>
+            <p>
+                <font-awesome-icon :icon="['fas', 'calendar-days']" />
+                Abr 2022 - Fev 2023
+            </p>
+
+            
+            <button>Efetivo</button>
             </div>
         </div>
         <span class="separator"></span>

@@ -23,15 +23,14 @@
         <font-awesome-icon icon="code" />Projects
       </router-link>
       
-      <a href="#"><font-awesome-icon icon="envelope" /> Contact</a>
       </div>
 
       <div class="social-icons">
     <a href="https://github.com/MaauLobo" target="_blank">
       <font-awesome-icon :icon="['fab', 'github']" />
     </a>
-    <a href="#">
-      <font-awesome-icon :icon="['fab', 'twitter']" />
+    <a href="mailto:mauriciolobo509@gmail.com">
+      <font-awesome-icon :icon="['fas', 'envelope']" />
     </a>
     <a href="https://www.linkedin.com/in/mauricio-lobo-lima-449066269/" target="_blank">
       <font-awesome-icon :icon="['fab', 'linkedin']" />

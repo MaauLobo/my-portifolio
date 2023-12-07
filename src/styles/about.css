@@ -81,10 +81,156 @@ line-height: 28px;
   margin-right: 50px; /* ou ajuste a margem conforme necessário */
 }
 
+.company-info button{
+  display: inline-block; /* ou display: inline; */
+  margin-right: 100px; 
+}
+
 .separator {
   display: block;
-  width: 100%;
+  width: 50%;
   height: 1px;
   background-color: #A7A7A7; /* ou a cor desejada para a linha */
   margin: 30px 0; /* ou ajuste conforme necessário */
+}
+
+.separator2{
+  display: block;
+  width: 50%;
+  height: 1px;
+  background-color: #A7A7A7; /* ou a cor desejada para a linha */
+  margin: 30px 0; /* ou ajuste conforme necessário */
+}
+
+.company-info button{
+  width: 84px;
+height: 24px;
+flex-shrink: 0;
+border-radius: 100px;
+background: var(--Button-success, #D7FFE0);
+color: var(--Button-text, #018C0F);
+text-align: center;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 6px; /* 288.889% */
+border: none;
+
+}
+@media (max-width: 820px) {
+  .work {
+    padding: 100px; /* Reduz o preenchimento para telas menores */
+  }
+
+  .work1 {
+    max-width: 100%; /* Para ocupar toda a largura da tela */
+    padding: 0 20px; /* Adiciona algum espaço à esquerda e à direita */
+  }
+
+  .company-info p {
+    margin-right: 20px; /* Reduz a margem para telas menores */
+  }
+
+  .company-info button {
+    margin-right: 50px; /* Reduz a margem para telas menores */
+  }
+
+  .separator {
+    margin: 50px 0; /* Reduz a margem para telas menores */
+    width: 100%;
+  }
+
+  .separator2 {
+    margin: 100px 0; /* Reduz a margem para telas menores */
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .work {
+    padding: 100px; /* Reduz o preenchimento para telas menores */
+  }
+
+  .work1 {
+    max-width: 100%; /* Para ocupar toda a largura da tela */
+    padding: 0 20px; /* Adiciona algum espaço à esquerda e à direita */
+  }
+
+  .company-info p {
+    margin-right: 20px; /* Reduz a margem para telas menores */
+  }
+
+  .company-info button {
+    margin-right: 50px; /* Reduz a margem para telas menores */
+  }
+
+  .separator {
+    margin: 50px 0; /* Reduz a margem para telas menores */
+    width: 100%;
+  }
+
+  .separator2 {
+    margin: 50px 0; /* Reduz a margem para telas menores */
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .work {
+    padding: 100px; /* Reduz o preenchimento para telas menores */
+  }
+
+  .work1 {
+    max-width: 100%; /* Para ocupar toda a largura da tela */
+    padding: 0 20px; /* Adiciona algum espaço à esquerda e à direita */
+  }
+
+  .company-info p {
+    margin-right: 20px; /* Reduz a margem para telas menores */
+  }
+
+  .company-info button {
+    margin-right: 50px; /* Reduz a margem para telas menores */
+  }
+
+  .separator {
+    margin: 120px 0; /* Reduz a margem para telas menores */
+    width: 100%;
+  }
+
+  .separator2 {
+    margin: 170px 0; /* Reduz a margem para telas menores */
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 375px) {
+  .work {
+    padding: 100px; /* Reduz o preenchimento para telas menores */
+  }
+
+  .work1 {
+    max-width: 100%; /* Para ocupar toda a largura da tela */
+    padding: 0 20px; /* Adiciona algum espaço à esquerda e à direita */
+  }
+
+  .company-info p {
+    margin-right: 20px; /* Reduz a margem para telas menores */
+  }
+
+  .company-info button {
+    margin-right: 50px; /* Reduz a margem para telas menores */
+  }
+
+  .separator {
+    margin: 200px 0; /* Reduz a margem para telas menores */
+    width: 100%;
+  }
+  .separator2 {
+    margin: 250px 0; /* Reduz a margem para telas menores */
+    width: 100%;
+  }
 }
