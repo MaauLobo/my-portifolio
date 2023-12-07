@@ -2,10 +2,10 @@
     <div class="aboutme">
       <h1>Sobre mim</h1>
       <p ref="typewriter">
-        The Generator App is an online tool that helps you to export ready-made
-        templates ready to work as your future website. It helps you to combine
-        slides, panels, and other components and export it as a set of static
-        files: HTML/CSS/JS.
+        Aluno recém formado no curso técnico de Desenvolvimento de Sistemas , 
+        Apaixonado por tecnologia e por programação. Em
+busca de oportunidade na área de desenvolvimento de software e tecnologia
+no geral, afim de poder fazer uso de todo seu aprendizado adquirido.
       </p>
     </div>
   </template>
