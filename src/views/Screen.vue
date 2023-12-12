@@ -5,6 +5,7 @@
     <about/>
     <!-- Minhas Tecnologias -->
     <tech/>
+    
   </div>
 </template>
 
@@ -42,6 +43,7 @@ export default {
     navcomp,
     about,
     tech,
+    
   },
 };
 </script>
