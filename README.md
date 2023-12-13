@@ -1,19 +1,15 @@
 # my-portifolio
 
-## Project setup
+## Instale as Dependências 
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Rode o Projeto
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
