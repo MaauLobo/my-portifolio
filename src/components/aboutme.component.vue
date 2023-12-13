@@ -2,7 +2,7 @@
   <div class="aboutme">
     <h1>Sobre mim</h1>
     <p ref="typewriter">
-      Olá, me chamo Mauricio Lobo Lima, tenho 19 anos, residente de Feira De
+      Me chamo Mauricio Lobo Lima, tenho 19 anos, residente de Feira De
       Santana/BA, Recém-formado no curso técnico de Desenvolvimento de Sistemas
       e atualmente cursando Superior em Análise e Desenvolvimento de Sistemas,
       sou um entusiasta apaixonado por tecnologia e programação. Ao longo da
