@@ -46,5 +46,5 @@ export default {
 </script>
 
 <style>
-@import "@/styles/about.css";
+@import "../styles/about.css";
 </style>

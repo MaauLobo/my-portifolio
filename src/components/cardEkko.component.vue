@@ -37,5 +37,5 @@
 </template>
 
 <style>
-@import "@/styles/tech.css";
+@import "../styles/tech.css";
 </style>

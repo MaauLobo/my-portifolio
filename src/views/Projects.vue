@@ -30,5 +30,5 @@ export default{
 </script>
 
 <style>
-@import "@/styles/tech.css";
+@import "../styles/tech.css";
 </style>
