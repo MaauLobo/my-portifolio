@@ -2,7 +2,7 @@
     <div class="work">
         <h1>Experiências Profissionais</h1>
         <div class="work1">
-            <h2>Suporte de Software</h2> 
+            <h2>Analista De Sistemas</h2> 
             <div class="company-info">
             <p>
                 <font-awesome-icon :icon="['fas', 'building']" />
