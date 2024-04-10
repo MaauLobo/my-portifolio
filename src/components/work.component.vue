@@ -22,6 +22,27 @@
             </div>
         </div>
         <span class="separator"></span>
+        <div class="work1">
+            <h2>Desenvolvedor Front-End</h2> 
+            <div class="company-info">
+            <p>
+                <font-awesome-icon :icon="['fas', 'building']" />
+                AgMind
+            </p>
+            <p>
+                <font-awesome-icon :icon="['fas', 'location-dot']" />
+                São Paulo
+            </p>
+            <p>
+                <font-awesome-icon :icon="['fas', 'calendar-days']" />
+                Mar 2024 - Cargo Atual
+            </p>
+
+            
+            <button>Efetivo</button>
+            </div>
+        </div>
+        <span class="separator"></span>
     </div>
 </template>
 
