@@ -10,6 +10,7 @@
 <cardP2/>
 <cardP3/>
 <cardP4/>
+<cardP5/>
 </div>
 </template>
 
@@ -19,6 +20,8 @@ import cardP from '../components/cardEkko.component.vue'
 import cardP2 from '../components/cardGameZone.component.vue'
 import cardP3 from '../components/cardLol.component.vue'
 import cardP4 from '../components/cataline.component.vue'
+import cardP5 from '../components/prosel.component.vue'
+
 
 export default{
     components:{
@@ -27,6 +30,7 @@ export default{
         cardP2,
         cardP3,
         cardP4,
+        cardP5
         
     },
 }
